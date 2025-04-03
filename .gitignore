@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET specific
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.mdb
+
+# Rider / VSCode
+.idea/
+.vscode/
+*.sln.iml
+
+# Logs
+*.log
+
+# Auto-generated files
+Generated_Code/
+
+# Dotnet Tools
+.dotnet-tools/
+
+# Optional: Secrets or config
+secrets.json
+appsettings.Development.json
+
+# macOS/Linux files
+.DS_Store
+*.swp

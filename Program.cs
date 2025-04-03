@@ -28,6 +28,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors();
+
+// Enable static files - make sure this is before routing
 app.UseStaticFiles();
 
 // API Endpoints
@@ -55,8 +57,8 @@ app.MapPost("/api/echo", (JsonElement body) =>
 .WithName("EchoMessage")
 .WithOpenApi();
 
-// Serve the static index.html file
-app.MapGet("/", () => Results.File("wwwroot/index.html", "text/html"))
+// Serve the static index.html file - update the path to be relative to wwwroot
+app.MapGet("/", () => Results.File("index.html", "text/html"))
    .WithName("GetIndex")
    .WithOpenApi();
 
