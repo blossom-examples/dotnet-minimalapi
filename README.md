@@ -12,7 +12,7 @@ dotnet restore
 dotnet run
 ```
 
-Visit `http://localhost:5000` in your browser to see the demo application.
+Visit `http://127.0.0.1:5000` in your browser to see the demo application.
 
 <details>
 <summary>Additional Information</summary>
@@ -24,10 +24,10 @@ Visit `http://localhost:5000` in your browser to see the demo application.
 ### API Endpoints
 ```bash
 # Get a greeting
-curl http://localhost:5000/api/hello?name=John
+curl http://127.0.0.1:5000/api/hello?name=John
 
 # Echo a message
 curl -X POST -H "Content-Type: application/json" \
-     -d '{"message":"Hello"}' http://localhost:5000/api/echo
+     -d '{"message":"Hello"}' http://127.0.0.1:5000/api/echo
 ```
 </details>
