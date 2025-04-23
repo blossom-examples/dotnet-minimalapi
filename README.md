@@ -1,6 +1,6 @@
 # .NET Minimal API Tutorial Deploy on Blossom
 
-[![Blossom Badge](https://img.boltops.com/images/blossom/logos/blossom-powered-by.png)](https://blossom-cloud.com)
+[![Blossom Badge](https://img.boltops.com/images/blossom/logos/blossom-readme.png)](https://blossom-cloud.com)
 
 A ready-to-deploy .NET Minimal API app to get you started quickly on [Blossom](https://blossom-cloud.com).
 
